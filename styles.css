@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+}
+
+.header {
+    background-color: #222;
+    padding: 20px;
+}
+
+h1 {
+    color: #4A90E2;
+}
+
+button {
+    background-color: #E24A4A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C0392B;
+}
+
+.hero, .plans, .testimonials, .blog, .contact {
+    padding: 40px;
+}
+
+.plan, .blog-post {
+    background-color: #333;
+    margin: 10px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
